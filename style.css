@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-utama{
+    width: 420PX;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2 );
+    border: 2px solid rgba(255, 255, 255, 0.2 );
+    color: #fff;
+}
+
+.login-utama h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.2 );
+    border-radius: 40px;
+    padding: 0 20px;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.input-box input::placeholder{
+    color: #ffff;
+
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 20px;
+}
+
+.remember-forgot{
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label{
+    color: #ffff;
+
+}
+.remember-forgot label input{
+    color: #ffff;
+    margin-right: 6px;
+}
+
+.remember-forgot a{
+    color: #ffff;
+    text-decoration: none
+}
+
+form .btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.register-link{
+    margin: 40px 0;
+    text-align: center;
+
+}
+.register-link p a{
+    color: #ffff;
+    text-decoration: none;
+}
+.register-link p{
+    color: #ffff;
+}
